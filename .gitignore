@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+
+# Build outputs
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Temp files
+.tmp/
+temp/
+
+# Database migrations (if they should be generated, not committed)
+src/models/migrations/
+drizzle/
+scripts/
+db/
+
+# Generated migration meta files
+meta/_*
+
+# SQLite files if used in development
+*.sqlite
+*.sqlite3
+*.db
+
+# Drizzle Studio
+.drizzle/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Test files
+__tests__/coverage
+.jest-cache/ 
